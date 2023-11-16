@@ -1,4 +1,5 @@
 body{
+	margin: 0;
 	font-family: Roboto, Helvetica, Arial, sans-serif;
 	font-size: 18px;
 	line-height: 30px;
@@ -31,30 +32,17 @@ header img{
 }
 
 main{
-	max-width: 900px;
-	margin: 0 auto;
+	max-width: 800px;
 	padding: 20px;
 }
 
-main img{
-	max-width: 100%;
-}
-
 h2{
-	font-size: 30px;
+	font-size: 35px;
 	color: #69C3B2;
-	margin: 40px 0 40px;
+	margin: 45px;
 	text-transform: uppercase;
 	text-align: center;
 }
-
-h3{
-	font-size: 25px;
-	color: #6C5C48;
-	margin-top: 0;
-	text-transform: uppercase;
-}
-
 
 a{
 	color: #69C3B2;
@@ -71,4 +59,37 @@ footer{
 
 footer p{
 	margin: 0;
+}
+
+footer a{
+	color: #FEFEFE;
+}
+footera:{
+	color: #6C5C48;
+}
+
+p.caption{
+	color: #BCAFA2;
+	font-style: italic;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-right: 150px;
+	margin-left: 80px;
+}
+
+.columns {
+  columns: 250px 3;
+  column-rule: 1px dotted #ccc;
+  column-gap: 3em;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.intro {
+  column-span: all;
+}
+
+img{
+	max-width: 50%;
+	margin-left: 300px;
 }
